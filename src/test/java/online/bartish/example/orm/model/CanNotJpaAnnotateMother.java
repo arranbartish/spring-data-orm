@@ -8,7 +8,7 @@ public class CanNotJpaAnnotateMother implements Factory<CanNotJpaAnnotate> {
   public CanNotJpaAnnotate getInstance() {
     Annotated instance = new Annotated();
     instance.setValue1("1");
-    instance.setValue2("2");
+    instance.setValue2(2);
     instance.setValue3("3");
     return instance;
   }

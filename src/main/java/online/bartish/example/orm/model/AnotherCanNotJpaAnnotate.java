@@ -14,7 +14,7 @@ public class AnotherCanNotJpaAnnotate {
   private String value1;
 
   @NonNull
-  private String value2;
+  private Integer value2;
 
   @NonNull
   private String value3;

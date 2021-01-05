@@ -19,7 +19,7 @@ public class Annotated extends CanNotJpaAnnotate {
   @Override
   @Id
   @Column(name = "VALUE_2")
-  public @NonNull String getValue2(){
+  public @NonNull Integer getValue2(){
     return super.getValue2();
   }
 

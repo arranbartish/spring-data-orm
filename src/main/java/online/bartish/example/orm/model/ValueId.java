@@ -13,5 +13,5 @@ public class ValueId implements Serializable {
 
   private String value1;
 
-  private String value2;
+  private Integer value2;
 }
