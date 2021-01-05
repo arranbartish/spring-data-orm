@@ -14,13 +14,13 @@ import javax.transaction.Transactional;
 @SpringBootTest
 @Transactional
 @Rollback
-public class SpringDataCanNotJpaAnnotateRepositoryTest {
+public class SpringDataAnnotatedRepositoryTest {
 
   @Autowired
   SpringDataCrudAnnotatedRepository springDataCrudAnnotatedRepository;
 
   @Autowired
-  SpringDataCanNotJpaAnnotateRepository sut;
+  SpringDataAnnotatedRepository sut;
 
   @Test
   void willLoadValue() {
