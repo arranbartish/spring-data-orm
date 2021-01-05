@@ -1,0 +1,21 @@
+package online.bartish.example.orm.model;
+
+import lombok.*;
+
+@EqualsAndHashCode
+@Getter
+@Setter
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class AnotherCanNotJpaAnnotate {
+
+  @NonNull
+  private String value1;
+
+  @NonNull
+  private String value2;
+
+  @NonNull
+  private String value3;
+}

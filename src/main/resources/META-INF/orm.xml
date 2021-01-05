@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_2_0.xsd"
+                 version="2.0">
+
+  <entity class="online.bartish.example.orm.model.AnotherCanNotJpaAnnotate" access="FIELD">
+    <table name="VALUE_TABLE"/>
+    <id-class class="online.bartish.example.orm.model.ValueId"/>
+    <attributes>
+      <id name="value1">
+        <column name="VALUE_1" length="28"/>
+      </id>
+      <id name="value2">
+        <column name="VALUE_2" length="28"/>
+      </id>
+      <basic name="value3">
+        <column name="VALUE_3" length="28"/>
+      </basic>
+    </attributes>
+  </entity>
+</entity-mappings>
