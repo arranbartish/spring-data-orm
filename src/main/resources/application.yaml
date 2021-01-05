@@ -1,0 +1,16 @@
+spring:
+  jpa:
+    database: h2
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+    properties:
+      hibernate:
+        default_schema: CUSTOM_VALUES
+  datasource:
+    url: jdbc:h2:file:@project.build.directory@/database/values;MODE=Oracle;IFEXISTS=TRUE
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
+    schema: classpath:schema.sql
+    name: CUSTOM_VALUES
